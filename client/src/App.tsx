@@ -71,28 +71,28 @@ function AppSidebar({
             </SidebarMenuButton>
             {techWorkflowsOpen && <SidebarMenuSub className="ml-4 mt-1 space-y-1 border-l-2 border-sidebar-border pl-2">
                 <SidebarMenuSubItem>
-                  <SidebarMenuSubButton asChild isActive={location === "/lovable-prompts"} className="transition-all duration-200 hover:bg-sidebar-accent/70 data-[active=true]:bg-sidebar-primary/80 data-[active=true]:text-sidebar-primary-foreground data-[active=true]:font-medium">
+                  <SidebarMenuSubButton asChild isActive={location === "/lovable-prompts"} className="transition-all duration-200 hover:bg-sidebar-accent/70 data-[active=true]:bg-sidebar-primary data-[active=true]:text-sidebar-primary-foreground data-[active=true]:font-medium data-[active=true]:rounded-md">
                     <Link href="/lovable-prompts">
-                      <span className="text-sm text-slate-900">Lovable Prompts</span>
+                      <span className="text-sm">Lovable Prompts</span>
                     </Link>
                   </SidebarMenuSubButton>
                 </SidebarMenuSubItem>
                 <SidebarMenuSubItem>
-                  <SidebarMenuSubButton asChild isActive={location === "/flutter-webview"} className="transition-all duration-200 hover:bg-sidebar-accent/70 data-[active=true]:bg-sidebar-primary/80 data-[active=true]:text-sidebar-primary-foreground data-[active=true]:font-medium">
+                  <SidebarMenuSubButton asChild isActive={location === "/flutter-webview"} className="transition-all duration-200 hover:bg-sidebar-accent/70 data-[active=true]:bg-sidebar-primary data-[active=true]:text-sidebar-primary-foreground data-[active=true]:font-medium data-[active=true]:rounded-md">
                     <Link href="/flutter-webview">
                       <span className="text-sm">Flutter Web View App</span>
                     </Link>
                   </SidebarMenuSubButton>
                 </SidebarMenuSubItem>
                 <SidebarMenuSubItem>
-                  <SidebarMenuSubButton asChild isActive={location === "/odoo-hosting"} className="transition-all duration-200 hover:bg-sidebar-accent/70 data-[active=true]:bg-sidebar-primary/80 data-[active=true]:text-sidebar-primary-foreground data-[active=true]:font-medium">
+                  <SidebarMenuSubButton asChild isActive={location === "/odoo-hosting"} className="transition-all duration-200 hover:bg-sidebar-accent/70 data-[active=true]:bg-sidebar-primary data-[active=true]:text-sidebar-primary-foreground data-[active=true]:font-medium data-[active=true]:rounded-md">
                     <Link href="/odoo-hosting">
                       <span className="text-sm">Odoo Hosting</span>
                     </Link>
                   </SidebarMenuSubButton>
                 </SidebarMenuSubItem>
                 <SidebarMenuSubItem>
-                  <SidebarMenuSubButton asChild isActive={location === "/replit-to-vercel"} className="transition-all duration-200 hover:bg-sidebar-accent/70 data-[active=true]:bg-sidebar-primary/80 data-[active=true]:text-sidebar-primary-foreground data-[active=true]:font-medium">
+                  <SidebarMenuSubButton asChild isActive={location === "/replit-to-vercel"} className="transition-all duration-200 hover:bg-sidebar-accent/70 data-[active=true]:bg-sidebar-primary data-[active=true]:text-sidebar-primary-foreground data-[active=true]:font-medium data-[active=true]:rounded-md">
                     <Link href="/replit-to-vercel">
                       <span className="text-sm">Replit Made to Vercel Ready</span>
                     </Link>
