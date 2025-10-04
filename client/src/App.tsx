@@ -31,7 +31,7 @@ function AppSidebar({
   return <Sidebar className="border-r border-sidebar-border shadow-lg">
       <SidebarHeader className="bg-sidebar-accent/50 border-b border-sidebar-border">
         <div className="flex items-center justify-between px-4 py-3">
-          <h2 className="text-lg font-bold text-sidebar-foreground">Navigation</h2>
+          <h2 className="text-lg font-bold text-sidebar-foreground animate-gradient">Mizu, Min & GoLar</h2>
           {user && <Button variant="ghost" size="sm" onClick={handleLogout} className="h-8 hover:bg-sidebar-accent hover:text-destructive transition-colors">
               <LogOut className="h-4 w-4" />
             </Button>}
