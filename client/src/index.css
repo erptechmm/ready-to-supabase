@@ -27,8 +27,8 @@
   /* Sidebar variables */
   --sidebar-background: hsl(0, 0%, 96%);
   --sidebar-foreground: hsl(0, 0%, 20%);
-  --sidebar-primary: hsl(207, 90%, 54%);
-  --sidebar-primary-foreground: hsl(211, 100%, 99%);
+  --sidebar-primary: hsl(0, 0%, 100%);
+  --sidebar-primary-foreground: hsl(270, 70%, 50%);
   --sidebar-accent: hsl(0, 0%, 92%);
   --sidebar-accent-foreground: hsl(0, 0%, 20%);
   --sidebar-border: hsl(0, 0%, 88%);
@@ -60,8 +60,8 @@
   /* Sidebar variables */
   --sidebar-background: hsl(0, 0%, 20%);
   --sidebar-foreground: hsl(0, 0%, 95%);
-  --sidebar-primary: hsl(207, 90%, 54%);
-  --sidebar-primary-foreground: hsl(211, 100%, 99%);
+  --sidebar-primary: hsl(0, 0%, 100%);
+  --sidebar-primary-foreground: hsl(270, 70%, 50%);
   --sidebar-accent: hsl(0, 0%, 25%);
   --sidebar-accent-foreground: hsl(0, 0%, 95%);
   --sidebar-border: hsl(0, 0%, 30%);
