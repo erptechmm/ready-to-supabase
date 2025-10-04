@@ -222,7 +222,7 @@ export default function LovablePrompts() {
                           variant="default"
                           size="sm"
                           onClick={() => saveLabel(promptIndex)}
-                          className="h-7 px-2"
+                          className="h-7 px-2 bg-purple-600 hover:bg-purple-700 text-white"
                         >
                           <Check className="h-3 w-3 mr-1" />
                           Save
@@ -239,7 +239,7 @@ export default function LovablePrompts() {
                       </>
                     ) : (
                       <>
-                        <Label htmlFor={`prompt-${promptNum}`} className="text-sm font-medium text-gray-700">
+                        <Label htmlFor={`prompt-${promptNum}`} className="text-sm font-medium text-purple-700">
                           {promptLabels[promptIndex] || `Prompt ${promptNum}`}
                         </Label>
                         <Button
@@ -268,7 +268,7 @@ export default function LovablePrompts() {
                         size="sm"
                         onClick={() => savePrompt(promptIndex)}
                         disabled={promptSaving}
-                        className="h-8 px-3"
+                        className="h-8 px-3 bg-purple-600 hover:bg-purple-700 text-white disabled:bg-purple-400"
                       >
                         {promptSaving ? (
                           <>
