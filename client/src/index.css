@@ -25,14 +25,14 @@
   --radius: 0.5rem;
   
   /* Sidebar variables */
-  --sidebar-background: hsl(0, 0%, 100%);
-  --sidebar-foreground: hsl(20, 14.3%, 4.1%);
+  --sidebar-background: hsl(0, 0%, 96%);
+  --sidebar-foreground: hsl(0, 0%, 20%);
   --sidebar-primary: hsl(207, 90%, 54%);
   --sidebar-primary-foreground: hsl(211, 100%, 99%);
-  --sidebar-accent: hsl(60, 4.8%, 95.9%);
-  --sidebar-accent-foreground: hsl(24, 9.8%, 10%);
-  --sidebar-border: hsl(20, 5.9%, 90%);
-  --sidebar-ring: hsl(20, 14.3%, 4.1%);
+  --sidebar-accent: hsl(0, 0%, 92%);
+  --sidebar-accent-foreground: hsl(0, 0%, 20%);
+  --sidebar-border: hsl(0, 0%, 88%);
+  --sidebar-ring: hsl(0, 0%, 20%);
 }
 
 .dark {
@@ -58,14 +58,14 @@
   --radius: 0.5rem;
   
   /* Sidebar variables */
-  --sidebar-background: hsl(240, 10%, 3.9%);
-  --sidebar-foreground: hsl(0, 0%, 98%);
+  --sidebar-background: hsl(0, 0%, 20%);
+  --sidebar-foreground: hsl(0, 0%, 95%);
   --sidebar-primary: hsl(207, 90%, 54%);
   --sidebar-primary-foreground: hsl(211, 100%, 99%);
-  --sidebar-accent: hsl(240, 3.7%, 15.9%);
-  --sidebar-accent-foreground: hsl(0, 0%, 98%);
-  --sidebar-border: hsl(240, 3.7%, 15.9%);
-  --sidebar-ring: hsl(240, 4.9%, 83.9%);
+  --sidebar-accent: hsl(0, 0%, 25%);
+  --sidebar-accent-foreground: hsl(0, 0%, 95%);
+  --sidebar-border: hsl(0, 0%, 30%);
+  --sidebar-ring: hsl(0, 0%, 95%);
 }
 
 @layer base {
