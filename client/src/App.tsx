@@ -196,18 +196,18 @@ function App() {
         <SidebarProvider>
           <div className="flex min-h-screen w-full">
             <AppSidebar user={user} />
-            <div className="flex-1 flex flex-col">
+            <div className="flex-1 flex flex-col w-full">
               <header className="sticky top-0 z-10 flex h-14 items-center gap-4 border-b bg-background px-4 lg:hidden">
-                <SidebarTrigger className="-ml-2" />
+                <SidebarTrigger />
                 <span className="font-semibold animate-gradient">Mizu, Min & GoLar</span>
               </header>
-              <main className="flex-1">
+              <main className="flex-1 w-full">
                 <Router />
               </main>
             </div>
           </div>
-          <Toaster />
         </SidebarProvider>
+        <Toaster />
       </TooltipProvider>
     </QueryClientProvider>;
 }
