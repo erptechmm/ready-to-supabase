@@ -3,7 +3,7 @@ import { queryClient } from "./lib/queryClient";
 import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import { SidebarProvider, Sidebar, SidebarContent, SidebarHeader, SidebarMenu, SidebarMenuItem, SidebarMenuButton, SidebarMenuSub, SidebarMenuSubItem, SidebarMenuSubButton, SidebarInset } from "@/components/ui/sidebar";
+import { SidebarProvider, Sidebar, SidebarContent, SidebarHeader, SidebarMenu, SidebarMenuItem, SidebarMenuButton, SidebarMenuSub, SidebarMenuSubItem, SidebarMenuSubButton, SidebarInset, SidebarTrigger } from "@/components/ui/sidebar";
 import { GitBranch, FileText, Settings, HelpCircle, ChevronRight, LogOut } from "lucide-react";
 import { useState, useEffect } from "react";
 import { supabase } from "@/integrations/supabase/client";
@@ -194,11 +194,19 @@ function App() {
   return <QueryClientProvider client={queryClient}>
       <TooltipProvider>
         <SidebarProvider>
-          <AppSidebar user={user} />
-          <SidebarInset>
-            <Toaster />
-            <Router />
-          </SidebarInset>
+          <div className="flex min-h-screen w-full">
+            <AppSidebar user={user} />
+            <div className="flex-1 flex flex-col">
+              <header className="sticky top-0 z-10 flex h-14 items-center gap-4 border-b bg-background px-4 lg:hidden">
+                <SidebarTrigger className="-ml-2" />
+                <span className="font-semibold animate-gradient">Mizu, Min & GoLar</span>
+              </header>
+              <main className="flex-1">
+                <Router />
+              </main>
+            </div>
+          </div>
+          <Toaster />
         </SidebarProvider>
       </TooltipProvider>
     </QueryClientProvider>;
